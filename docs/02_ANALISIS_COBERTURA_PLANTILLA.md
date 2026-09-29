@@ -18,3 +18,7 @@
 ### Dobles de prueba
 
 `DisponibilidadClient` se controla con stubbing y `ReservaRepository`/`Notificador` se verifican como mocks.
+
+### Flujo de análisis
+
+La interpretación de JaCoCo debe acompañar a las métricas con evidencia de reglas y escenarios de negocio.
