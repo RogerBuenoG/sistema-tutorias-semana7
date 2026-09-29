@@ -14,3 +14,7 @@
 | CP-10 | confirmar | No disponible | R-002, disponible=false | IllegalStateException; PENDIENTE | Alternativo | Confirmar una reserva no disponible |
 | CP-11 | confirmar | Reserva nula | null | IllegalArgumentException | Inválido | Procesar una reserva inexistente |
 | CP-12 | confirmar | Orden de interacciones | R-003, disponible=true | disponibilidad → guardar → notificar | Interacción | Ejecutar dependencias en orden incorrecto |
+
+### Descuentos y validaciones
+
+Se documentan los escenarios NORMAL, VIP, ESTUDIANTE y total negativo.
