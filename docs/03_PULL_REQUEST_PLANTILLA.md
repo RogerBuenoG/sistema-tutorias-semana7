@@ -34,3 +34,7 @@ El proyecto base no incluye una integración real de disponibilidad, persistenci
 
 ## Uso de IA
 Se utilizó ChatGPT como apoyo para estructurar la matriz, proponer escenarios de prueba, revisar la redacción técnica y preparar la documentación. La ejecución y validación del proyecto se realizó sobre el código base proporcionado.
+
+### Evidencia final
+
+La entrega debe incluir matriz, suite, cobertura, Git, PR, autorrevisión y declaración de IA.
