@@ -14,3 +14,7 @@
 - Se añadió un caso de sensibilidad de mayúsculas para VIP.
 - Se utilizaron dobles de prueba en `confirmar()`: `DisponibilidadClient` se controla mediante `when(...).thenReturn(...)`; `ReservaRepository` y `Notificador` se verifican con `verify(...)`.
 - La cobertura alta no garantiza corrección porque una prueba puede ejecutar una línea sin comprobar el resultado de negocio o sin verificar escenarios límite e interacciones.
+
+### Dobles de prueba
+
+`DisponibilidadClient` se controla con stubbing y `ReservaRepository`/`Notificador` se verifican como mocks.
